@@ -1,0 +1,122 @@
+.container-project {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    height: 400px;
+    width: 70%;
+    max-width: 600px;
+    padding: 10px;
+    margin: 0 auto;
+    border-radius: 12px;
+}
+
+.container-project:hover {
+    box-shadow: 0 0 15px rgb(197 191 191);
+    transition: 0.5s;
+}
+
+.card-project img {
+    width: 300px;
+    object-fit: contain;
+}
+
+.card-project p {
+    background-color: whitesmoke;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+.card-project ul {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+.card-project ul button {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+    background-color: rgb(234, 234, 234);
+    border: none;
+    outline: none;
+    border-radius: 2px;
+    text-align: center;
+    color: black;
+}
+
+.card-project a button {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+    background-color: rgb(234, 234, 234);
+    border: none;
+    outline: 1px solid darkgrey;
+    box-shadow: 0 0 15px rgb(193, 190, 190);
+    padding: 4px;
+    cursor: pointer;
+    border-radius: 2px;
+    text-align: center;
+    color: black;
+}
+
+.card-project1 img {
+    width: 200px;
+    object-fit: contain;
+}
+
+.card-project1 {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+.card-project1 ul {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+.card-project1 ul button {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+    background-color: rgb(234, 234, 234);
+    border: none;
+    outline: none;
+    border-radius: 2px;
+    text-align: center;
+    color: black;
+}
+
+.card-project1 a button {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+    background-color: rgb(234, 234, 234);
+    border: none;
+    outline: 1px solid darkgrey;
+    box-shadow: 0 0 15px rgb(193, 190, 190);
+    padding: 4px;
+    cursor: pointer;
+    border-radius: 2px;
+    text-align: center;
+    color: black;
+}

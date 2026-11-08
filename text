@@ -1,0 +1,10 @@
+
+image grid:
+   /*padding: 25px;*/
+    /*border: 2px solid gray;*/
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    cursor: pointer;
+    padding: 20px;
+    /*box-shadow: 0 0 5px rgb(174 175 220);*/
