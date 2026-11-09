@@ -129,22 +129,16 @@
 
 }
 
-/* Mobile */
-@media (max-width: 600px) {
-
-    .projects,
-    .certifications {
-        padding: 15px;
-    }
-
-    .container-project {
-        grid-template-columns: 1fr;
-        gap: 20px;
-    }
-
-    .card-project,
-    .card-project1 {
+@media (max-width: 768px) {
+    .container-project,.card-project,.card-project1 {
+        position: absolute;
+        top: 60px;
+        right: -100%;
+        flex-direction: column;
+        background-color: #222;
         width: 100%;
-        max-width: 100%;
+        text-align: center;
+        padding: 1.5rem 0;
+        transition: 0.4s ease-in-out;
     }
 }
