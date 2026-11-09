@@ -129,7 +129,7 @@
 
 }
 
-/* 
+
 @media (max-width: 768px) {
     .container-project,.card-project,.card-project1 {
         position: absolute;
@@ -142,13 +142,11 @@
         padding: 1.5rem 0;
         transition: 0.4s ease-in-out;
     }
-} */
-@media (max-width: 768px) {
+}
+@media (max-width: 400px) {
     .container-project,.card-project,.card-project1,img,p,h1{
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 100%;
-        height: 100%;
     }
 }
