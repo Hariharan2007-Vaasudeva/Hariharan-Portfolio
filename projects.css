@@ -131,12 +131,16 @@
 
 
 @media (max-width: 768px) {
-    .container-project,.card-project,.card-project1,h1 {
+
+    .container-project,
+    .card-project,
+    .card-project1,
+    h1 {
         position: absolute;
         top: 60px;
         right: -50%;
         flex-direction: column;
-        background-color: #222;
+        background-color: whitesmoke;
         width: 100%;
         text-align: center;
         padding: 1.5rem 0;
@@ -145,7 +149,7 @@
 }
 
 @media (max-width: 768px) {
-    body > h1 {
+    body>h1 {
         position: relative;
         top: 0 !important;
         right: auto;
