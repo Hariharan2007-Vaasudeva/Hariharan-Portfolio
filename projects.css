@@ -134,7 +134,7 @@
     .container-project,.card-project,.card-project1 {
         position: absolute;
         top: 60px;
-        right: -300%;
+        right: -100%;
         flex-direction: column;
         background-color: #222;
         width: 100%;
