@@ -131,7 +131,7 @@
 
 
 @media (max-width: 768px) {
-    .container-project,.card-project,.card-project1 {
+    .container-project,.card-project,.card-project1,h1 {
         position: absolute;
         top: 60px;
         right: -50%;
