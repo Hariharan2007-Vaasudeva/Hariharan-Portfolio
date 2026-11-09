@@ -144,7 +144,7 @@
     }
 } */
 @media (max-width: 768px) {
-    .container-project,.card-project,.card-project1{
+    .container-project,.card-project,.card-project1,img,p,h1{
         display: flex;
         justify-content: center;
         align-items: center;
