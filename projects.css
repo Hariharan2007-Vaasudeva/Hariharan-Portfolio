@@ -128,3 +128,67 @@
     color: black;
 
 }
+
+
+/* Main container */
+.projects,
+.certifications {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Cards layout */
+.container-project {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 25px;
+}
+
+/* Individual card */
+.card-project,
+.card-project1 {
+    width: 100%;
+    min-width: 0;
+    box-sizing: border-box;
+}
+
+/* Images */
+.project-card img,
+.certification-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
+/* Tablet */
+@media (max-width: 900px) {
+
+    .project-container,
+    .certification-container {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+
+    .projects,
+    .certifications {
+        padding: 15px;
+    }
+
+    .container-project {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .card-project,
+    .card-project1 {
+        width: 100%;
+        max-width: 100%;
+    }
+}
