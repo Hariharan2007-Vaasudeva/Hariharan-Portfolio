@@ -48,21 +48,57 @@
     }
 
     @media (max-width: 768px) {
-
-        .p{
-            text-align: center;
+        body > h1 {
             position: relative;
+            top: 0 !important;
+            margin: 32px 12px 16px;
+            text-align: center;
+        }
+
+        body > p {
+            position: static;
+            left: auto;
             top: auto;
-            right: auto;
-            bottom: auto;
             width: auto;
-            max-width: 100%;
-            /* left: 100px; */
-            padding: 0;
-            margin: 20px 0 0;
+            max-width: 600px;
+            padding: 0 20px;
+            margin: 16px auto;
             box-sizing: border-box;
-            color: #333;
+            text-align: center;
             overflow-wrap: anywhere;
+        }
+
+        .container-codolio {
+            position: relative;
+            top: 0;
+            width: calc(100% - 32px);
+            max-width: 900px;
+            height: auto;
+            min-height: 0;
+            padding: 12px;
+            margin: 24px auto;
+            box-sizing: border-box;
+        }
+
+        .container-codolio iframe {
+            position: static;
+            display: block;
+            width: 100% !important;
+            height: min(75vh, 800px) !important;
+            min-height: 500px;
+            border-radius: 10px;
+        }
+    }
+
+    @media (max-width: 480px) {
+        .container-codolio {
+            width: calc(100% - 24px);
+            padding: 8px;
+        }
+
+        .container-codolio iframe {
+            height: 70vh !important;
+            min-height: 420px;
         }
     }
 </style>
