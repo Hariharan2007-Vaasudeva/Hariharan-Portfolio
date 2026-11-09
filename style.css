@@ -284,3 +284,17 @@ textarea {
     border-radius: 10px;
     color: whitesmoke;
 }
+
+@media (max-width: 768px) {
+    .navbar {
+        position: absolute;
+        top: 60px;
+        right: -100%;
+        flex-direction: column;
+        background-color: #222;
+        width: 100%;
+        text-align: center;
+        padding: 1.5rem 0;
+        transition: 0.4s ease-in-out;
+    }
+}
