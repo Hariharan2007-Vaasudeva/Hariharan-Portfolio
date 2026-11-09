@@ -81,3 +81,76 @@ a {
     position: sticky;
     font-weight: normal;
 }
+
+@media (max-width: 768px) {
+    body > h1 {
+        position: relative;
+        top: 0 !important;
+        margin: 32px 12px 16px;
+        text-align: center;
+    }
+
+    body > p {
+        position: static;
+        width: auto;
+        max-width: 600px;
+        padding: 0 20px;
+        margin: 16px auto;
+        box-sizing: border-box;
+        text-align: center;
+        overflow-wrap: anywhere;
+    }
+
+    .container-experience {
+        position: relative;
+        top: 0 !important;
+        width: calc(100% - 32px);
+        max-width: 600px;
+        height: auto;
+        min-height: 0;
+        padding: 24px 20px;
+        margin: 24px auto;
+        box-sizing: border-box;
+    }
+
+    .card-experience {
+        width: 100%;
+        min-width: 0;
+    }
+
+    .card-experience img {
+        position: static;
+        display: block;
+        width: 100px;
+        height: 100px;
+        margin: 0 auto 20px;
+    }
+
+    .card-experience h1 {
+        position: static !important;
+        margin: 12px 0;
+        overflow-wrap: anywhere;
+    }
+
+    .card-experience > p,
+    .card-experience > p.des {
+        position: static;
+        top: auto;
+        right: auto;
+        bottom: auto;
+        width: auto;
+        max-width: 100%;
+        padding: 0;
+        margin: 20px 0 0;
+        box-sizing: border-box;
+        color: #333;
+        overflow-wrap: anywhere;
+    }
+}
+
+@media (max-width: 480px) {
+    .container-experience {
+        width: calc(100% - 24px);
+        padding: 20px 16px;
+    }
+}

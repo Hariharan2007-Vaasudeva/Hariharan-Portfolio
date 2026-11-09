@@ -298,3 +298,107 @@ textarea {
         transition: 0.4s ease-in-out;
     }
 }
+
+@media (max-width: 768px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .navbar {
+        position: relative;
+        top: 20px;
+        right: auto;
+        width: 100%;
+        padding: 0 12px;
+        box-sizing: border-box;
+    }
+
+    .nav {
+        position: static;
+        top: auto;
+        width: 100%;
+        max-width: 600px;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 8px 16px;
+        padding: 12px;
+        box-sizing: border-box;
+        font-size: 14px;
+    }
+
+    .nav a {
+        position: static;
+        padding-left: 0;
+        white-space: nowrap;
+    }
+
+    .container {
+        height: auto;
+        min-height: 65vh;
+        padding: 40px 16px;
+    }
+
+    .card h2 {
+        font-size: clamp(36px, 10vw, 56px);
+    }
+
+    .container-about,
+    .container-education,
+    .container-contact {
+        width: 100%;
+        padding-right: 16px;
+        padding-left: 16px;
+        box-sizing: border-box;
+    }
+
+    .card p,
+    .card-details {
+        width: 100%;
+        max-width: 500px;
+        box-sizing: border-box;
+    }
+
+    .image-grid {
+        width: min(100%, 390px);
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        padding: 0 12px;
+        box-sizing: border-box;
+    }
+
+    .image-grid img {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 1;
+        padding: 12px;
+        box-sizing: border-box;
+    }
+
+    .container-contact form {
+        width: 100%;
+        max-width: 500px;
+    }
+
+    h1 {
+        font-size: clamp(26px, 7vw, 36px);
+    }
+}
+
+@media (max-width: 480px) {
+    .nav {
+        gap: 8px 12px;
+        font-size: 13px;
+    }
+
+    .card img {
+        max-width: min(280px, 80vw);
+    }
+
+    .card p,
+    .card-details {
+        padding: 18px;
+    }
+
+    .container-contact form {
+        padding: 18px;
+    }
+}
