@@ -45,7 +45,7 @@ Prince Shri Venkateshwara Padmavathy Engineering College
 
 Explore my portfolio:
 
-👉 hariharan-verse.vercel.app
+👉 [hariharan-verse.vercel.app](https://hariharan-verse.vercel.app/)
 
 ## 📬 Contact
 
