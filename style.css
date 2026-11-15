@@ -74,20 +74,34 @@ body {
     max-width: 280px;
     /* width: 200px; */
     border-radius: 12px;
-    /* cursor: pointer; */
-    box-shadow: 0 0 6px rgb(255 255 255);
+    cursor: pointer;
+    /* box-shadow: 0 0 6px rgb(255 255 255); */
+    background: #191919;
+    /* box-shadow:
+        0 0 25px rgba(0, 120, 255, 0.35),
+        0 0 45px rgba(150, 50, 180, 0.25),
+        0 0 65px rgba(0, 255, 100, 0.15); */
+    background-image:
+        radial-gradient(ellipse at 10% 15%, rgba(0, 120, 255, 0.35), transparent 35%),
+        radial-gradient(ellipse at 45% 0%, rgba(150, 50, 180, 0.30), transparent 35%),
+        radial-gradient(ellipse at 85% 10%, rgba(255, 50, 50, 0.25), transparent 30%),
+        radial-gradient(ellipse at 90% 90%, rgba(0, 255, 100, 0.25), transparent 35%);
+    transition: all 0.3s ease;
 }
 
 .card img:hover {
     animation: rgb 5s linear infinite;
-    border-color: #ffffff;
+    /* border-color: #ffffff; */
     transition: 0.5s;
-    box-shadow:
-        /* 0 0 20px cyan, */
-        0 0 20px blue;
-    /* 0 0 60px purple; */
-
+    /* box-shadow: 
+    0 0 20px cyan,
+     0 0 20px blue; 
+     0 0 60px purple; */
     transform: scale(1.08);
+    box-shadow:
+        0 0 40px rgba(10, 64, 244, 0.909),
+        0 0 20px rgba(7, 24, 212, 0.845),
+        0 0 20px rgba(0, 21, 255, 0.575);
 }
 
 .card h2 {
