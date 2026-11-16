@@ -49,11 +49,11 @@
 
 .card-certificate a button:hover {
     box-shadow: 0 0 15px rgb(1, 26, 148);
-    /* transition: 0.4s; */
+    transition: 0.4s;
 }
 
 @media (max-width: 768px) {
-    body > h1 {
+    body>h1 {
         position: relative;
         top: 0 !important;
         margin: 32px 12px;
